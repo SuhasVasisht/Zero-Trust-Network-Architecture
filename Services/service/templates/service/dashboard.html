@@ -1,0 +1,33 @@
+{% extends 'service/base.html' %}
+{% block content %}
+    <script>
+        //set the session cookie
+         document.cookie = "uid={{uid}}; SameSite=Lax"; 
+
+         //to check if it works ; must replace with the value read from stored cookie
+        var uid = '{{uid}}';
+           
+         function logmeout()
+         {
+            
+            document.cookie = "uid=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/dash;";
+            window.location.href ="http://192.168.0.153:8000/logout/"+uid;
+         }
+
+         function reqResource(link)
+         {
+            console.log(link)
+            window.location.href ="http://192.168.0.153:8001/req/"+uid+"&"+link;
+         }
+    </script>
+    <h1 style="font-style: normal;">Welcome to your Dashboard {{username}}</h1>
+    <!--<a onclick="reqResource()">Resource</a>-->
+    <hr style="color: blue; border-width: 2px;">
+    <h2>Resources</h2>
+    {% for link in resourceLinks %}
+    <a onclick="reqResource('{{link}}')">{{ link }}</a>
+    <br>
+    {% endfor %}
+    <hr style="color: blue; border-width: 2px;">
+    <a onclick="logmeout()">Logout</a>
+{% endblock %}

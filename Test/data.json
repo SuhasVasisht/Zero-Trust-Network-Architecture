@@ -1,0 +1,530 @@
+{
+   "C-Test-01":{
+      "name":[
+         "Web Safety",
+         "Slides",
+         "Into The Mist",
+         "Google Docs Offline",
+         "Kaspersky Protection",
+         "YouTube",
+         "Docs",
+         "Google Drive",
+         "Sheets",
+         "Chrome Web Store Payments",
+         "Gmail",
+         "Kaspersky Protection"
+      ],
+      "state":[
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1"
+      ],
+      "permissions":[
+         "storage, tabs, unlimitedStorage, webRequest, webRequestBlocking, http://*/*, https://*/*",
+         "",
+         "",
+         "alarms, storage, unlimitedStorage",
+         "nativeMessaging, management, cookies, tabs, webNavigation, webRequest, contextMenus, webRequestBlocking, <all_urls>, storage",
+         "",
+         "",
+         "clipboardRead, clipboardWrite, notifications",
+         "",
+         "identity, webview, https://www.google.com/, https://www.googleapis.com/*, https://payments.google.com/payments/v4/js/integrator.js, https://sandbox.google.com/payments/v4/js/integrator.js",
+         "notifications",
+         "nativeMessaging, management, cookies, tabs, webNavigation, webRequest, contextMenus, webRequestBlocking, <all_urls>, storage"
+      ],
+      "from_webstore":[
+         "true",
+         "true",
+         "true",
+         "true",
+         "true",
+         "true",
+         "true",
+         "true",
+         "true",
+         "true",
+         "true",
+         "true"
+      ]
+   },
+   "C-Test-02":{
+      "name":[
+         "Kaspersky Total Security",
+         "Kaspersky Total Security"
+      ],
+      "state":[
+         "On",
+         "On"
+      ],
+      "type":[
+         "Firewall",
+         "Antivirus"
+      ],
+      "signatures_up_to_date":[
+         "1",
+         "1"
+      ]
+   },
+   "C-Test-03":{
+      "name":[
+         "Microsoft Windows 10 Home Single Language"
+      ],
+      "version":[
+         "10.0.19042"
+      ],
+      "major":[
+         "10"
+      ],
+      "minor":[
+         "0"
+      ],
+      "patch":[
+         ""
+      ],
+      "build":[
+         "19042"
+      ]
+   },
+   "C-Test-04":{
+      "hotfix_id":[
+         "KB5006365",
+         "KB4562830",
+         "KB4577586",
+         "KB4580325",
+         "KB5007186",
+         "KB5006753",
+         "KB5005699"
+      ],
+      "installed_on":[
+         "11/14/2021",
+         "4/18/2021",
+         "5/2/2021",
+         "4/19/2021",
+         "11/14/2021",
+         "11/11/2021",
+         "9/17/2021"
+      ],
+      "caption":[
+         "http://support.microsoft.com/?kbid=5006365",
+         "https://support.microsoft.com/help/4562830",
+         "https://support.microsoft.com/help/4577586",
+         "https://support.microsoft.com/help/4580325",
+         "https://support.microsoft.com/help/5007186",
+         "",
+         ""
+      ]
+   },
+   "H-Test-01":{
+      "pid":[
+         "12060",
+         "32336"
+      ],
+      "name":[
+         "chrome.exe",
+         "python3.9.exe"
+      ]
+   },
+   "H-Test-02":{
+      "name":[
+         
+      ]
+   },
+   "H-Test-03":{
+      "name":[
+         
+      ],
+      "cmdline":[
+         
+      ]
+   },
+   "H-Test-04":{
+      "name":[
+         "Code.exe"
+      ],
+      "pid":[
+         "22596"
+      ]
+   },
+   "H-Test-05":{
+      "name":[
+         
+      ],
+      "pid":[
+         
+      ]
+   },
+   "H-Test-06":{
+      "name":[
+         
+      ],
+      "pid":[
+         
+      ]
+   },
+   "H-Test-07":{
+      "name":[
+         
+      ],
+      "pid":[
+         
+      ],
+      "path":[
+         
+      ]
+   },
+   "H-Test-08":{
+      "filename":[
+         
+      ],
+      "type":[
+         
+      ]
+   },
+   "H-Test-09":{
+      "name":[
+         
+      ],
+      "pid":[
+         
+      ]
+   },
+   "H-Test-10":{
+      "remote_address":[
+         
+      ]
+   },
+   "H-Test-11":{
+      "name":[
+         
+      ],
+      "path":[
+         
+      ],
+      "pid":[
+         
+      ]
+   },
+   "H-Test-12":{
+      "pid":[
+         "24160",
+         "4320",
+         "12560",
+         "12704",
+         "12560",
+         "8892",
+         "0",
+         "12532",
+         "18652",
+         "15344",
+         "4176",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "15344",
+         "0",
+         "16760",
+         "15344",
+         "0",
+         "15344",
+         "15344",
+         "15344",
+         "4176",
+         "16760",
+         "15344",
+         "15344",
+         "8892"
+      ],
+      "name":[
+         "OneDrive.exe",
+         "svchost.exe",
+         "Spotify.exe",
+         "Discord.exe",
+         "Spotify.exe",
+         "Spotify.exe",
+         "[System Process]",
+         "SearchApp.exe",
+         "SupportAssistAgent.exe",
+         "chrome.exe",
+         "avp.exe",
+         "[System Process]",
+         "[System Process]",
+         "[System Process]",
+         "[System Process]",
+         "[System Process]",
+         "chrome.exe",
+         "[System Process]",
+         "ksde.exe",
+         "chrome.exe",
+         "[System Process]",
+         "chrome.exe",
+         "chrome.exe",
+         "chrome.exe",
+         "avp.exe",
+         "ksde.exe",
+         "chrome.exe",
+         "chrome.exe",
+         "Spotify.exe"
+      ],
+      "local_address":[
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120",
+         "192.168.0.120"
+      ],
+      "remote_address":[
+         "20.198.162.76",
+         "20.198.162.76",
+         "35.186.224.47",
+         "162.159.130.234",
+         "104.199.241.192",
+         "35.186.224.46",
+         "35.186.224.13",
+         "117.18.232.200",
+         "23.98.104.193",
+         "157.240.192.52",
+         "113.29.117.24",
+         "77.74.181.62",
+         "142.250.195.100",
+         "142.250.193.131",
+         "142.250.77.110",
+         "172.217.163.194",
+         "104.22.24.74",
+         "74.125.68.155",
+         "77.74.181.62",
+         "192.168.0.153",
+         "192.168.0.153",
+         "104.18.88.101",
+         "172.217.163.163",
+         "104.18.88.101",
+         "82.202.185.208",
+         "82.202.185.211",
+         "157.240.192.52",
+         "192.168.0.153",
+         "35.186.224.25"
+      ],
+      "family":[
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2",
+         "2"
+      ],
+      "protocol":[
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6",
+         "6"
+      ],
+      "local_port":[
+         "51283",
+         "51288",
+         "51293",
+         "52220",
+         "56385",
+         "56832",
+         "59016",
+         "59019",
+         "60922",
+         "63831",
+         "64633",
+         "64639",
+         "64642",
+         "64646",
+         "64647",
+         "64649",
+         "64653",
+         "64654",
+         "64657",
+         "64659",
+         "64660",
+         "64661",
+         "64662",
+         "64663",
+         "64673",
+         "64676",
+         "64677",
+         "64678",
+         "65170"
+      ],
+      "remote_port":[
+         "443",
+         "443",
+         "443",
+         "443",
+         "4070",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "8000",
+         "8000",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "443",
+         "8000",
+         "443"
+      ]
+   },
+   "H-Test-13":{
+      "firewall":[
+         "Good"
+      ],
+      "autoupdate":[
+         "Good"
+      ],
+      "antivirus":[
+         "Good"
+      ],
+      "antispyware":[
+         "Good"
+      ],
+      "internet_settings":[
+         "Good"
+      ],
+      "windows_security_center_service":[
+         "Good"
+      ],
+      "user_account_control":[
+         "Good"
+      ]
+   },
+   "parameters":[
+      "C-Test-01",
+      "C-Test-02",
+      "C-Test-03",
+      "C-Test-04",
+      "H-Test-01",
+      "H-Test-02",
+      "H-Test-03",
+      "H-Test-04",
+      "H-Test-05",
+      "H-Test-06",
+      "H-Test-07",
+      "H-Test-08",
+      "H-Test-09",
+      "H-Test-10",
+      "H-Test-11",
+      "H-Test-12",
+      "H-Test-13"
+   ],
+   "parameter_descriptions":{
+      "C-Test-01":"Browser Extensions Compliance",
+      "C-Test-02":"Security Products Compliance",
+      "C-Test-03":"Operating System Compliance",
+      "C-Test-04":"OS Hotfixes Check",
+      "H-Test-01":"Processes Spawning cmd.exe",
+      "H-Test-02":"Suspicious Run Locations",
+      "H-Test-03":"Execution with AT",
+      "H-Test-04":"Powershell Execution",
+      "H-Test-05":"Services launching Cmd",
+      "H-Test-06":"Remote PowerShell Sessions",
+      "H-Test-07":"Common Windows Process Masquerading",
+      "H-Test-08":"Batch File Write to System32",
+      "H-Test-09":"Webshell-Indicative Process Tree",
+      "H-Test-10":"CMSTP",
+      "H-Test-11":"Processes with Deleted Binaries",
+      "H-Test-12":"Custom- Network Communications Test",
+      "H-Test-13":"Custom- Security Services Status"
+   },
+   "username":"utsav",
+   "temp_uuid":"pes1201801086"
+}

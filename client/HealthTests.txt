@@ -1,0 +1,31 @@
+-----------------------------------------
+Organisation Compliance Tests [C-TEST-XX] : 10
+-----------------------------------------
+C-TEST-01: Browser Extensions Compliance
+C-TEST-02: Security Products Requirements 
+C-TEST-03: Operating System Compliance
+C-TEST-04: Hotfixes Check
+C-TEST-05: Flagged Application Check
+C-TEST-06:
+C-TEST-07:
+C-TEST-08:
+C-TEST-09:
+C-TEST-10: 
+------------------------------------
+User Device Health Tests [H-TEST-XX] : 15
+------------------------------------
+H-TEST-01: Processes Spawning cmd.exe
+H-TEST-02: Suspicious Run Locations
+H-TEST-03: Execution with AT
+H-TEST-04: Powershell Execution
+H-TEST-05: Services launching Cmd
+H-TEST-06: Remote PowerShell Sessions
+H-TEST-07: Common Windows Process Masquerading
+H-TEST-08: Batch File Write to System32
+H-TEST-09: Webshell-Indicative Process Tree
+H-TEST-10: CMSTP Setting Up Listeners.
+H-TEST-11: Processes with Deleted Binaries
+H-TEST-12: Custom: Network Application Test   
+H-TEST-13: Custom: Security Services Status   
+H-TEST-14:    
+H-TEST-15:    

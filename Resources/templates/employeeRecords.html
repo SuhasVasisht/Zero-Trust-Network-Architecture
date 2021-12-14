@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+        <h1>Employee Records</h1>
+        <hr>
+        <p id = "perms">
+                {%for item in permList%}
+                        <button>{{item}}</button>
+                    {% endfor %}
+        </p>
+        <hr>
+        <a href="http://192.168.0.153:8001/dash/{{uid}}">Dashboard</a>
+{% endblock %}

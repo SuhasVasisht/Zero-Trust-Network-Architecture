@@ -1,0 +1,63 @@
+SMB Copy and Execution
+Running executables with same hash and different names
+Suspicious Arguments
+RDP Connection Detection
+Command Line Usage of Archiving Software
+Execution with schtasks
+Service Binary Modifications
+SMB Write Request - NamedPipes
+Remotely Launched Executables via Services
+RunDLL32.exe monitoring
+RPC Activity
+Service Search Path Interception
+Outlier Parents of Cmd
+Debuggers for Accessibility Applications
+Windows Remote Management (WinRM)
+Command Launched from WinLogon
+Remotely Launched Executables via WMI
+Host Discovery Commands
+Create Remote Process via WMIC
+UAC Bypass
+Generic Regsvr32
+Squiblydoo
+Lsass Process Dump via Procdump
+Credential Dumping via Windows Task Manager
+Active Directory Dumping via NTDSUtil
+Shadow Copy Deletion
+NTFS Alternate Data Stream Execution - System Utilities
+NTFS Alternate Data Stream Execution - LOLBAS
+Scheduled Task - FileAccess
+Component Object Model Hijacking
+Indicator Blocking - Driver Unloaded
+Credentials in Files & Registry
+AppInit DLLs
+Boot or Logon Initialization Scripts
+Local Network Sniffing
+DLL Injection with Mavinject
+Processes Started From Irregular Parent
+Clear Powershell Console Command History
+Local Permission Group Discovery
+Network Share Connection Removal
+MSBuild and msxsl
+Compiled HTML Access
+Registry Edit from Screensaver
+Identifying Port Scanning Activity
+Unusually Long Command Line Strings
+Clearing Windows Logs with Wevtutil
+Unusual Child Process for Spoolsv.Exe or Connhost.Exe
+Unusual Child Process spawned using DDE exploit
+Detecting Tampering of Windows Defender Command Prompt
+Disable UAC
+Detecting Shadow Copy Deletion via Vssadmin.exe
+Get System Elevation
+Attempt To Add Certificate To Untrusted Store
+BCDEdit Failure Recovery Modification
+BITS Job Persistence
+BITSAdmin Download File
+CertUtil Download With URLCache and Split Arguments
+CertUtil Download With VerifyCtl and Split Arguments
+Certutil exe certificate extraction
+CertUtil With Decode Argument
+Create local admin accounts using net exe
+Reg.exe called from Command Shell
+Quick execution of a series of suspicious commands

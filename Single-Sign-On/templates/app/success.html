@@ -1,0 +1,23 @@
+{% extends 'app/base.html' %}
+{% block content %}
+    <center>
+        <h1 style="color: blue;">&#169; Capsule Corp</h1>
+    </center>
+    <script>
+        
+        function customProtocol()
+        {
+            window.location.href='{{link}}'
+        }
+        function myFunction()
+        {
+            //poll to see if the user was fully authenticated. 
+            window.location.href='http://192.168.0.153:8000/poll/{{uid}}'
+        }
+        customProtocol();
+        
+        console.log("polling SSO in 9 Seconds")
+        setTimeout(myFunction, 9000);
+
+    </script>
+{% endblock %}
